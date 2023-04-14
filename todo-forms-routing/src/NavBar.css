@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+Link{
+    font-weight: 500;
+    font-size: 200px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px;
+    transition: all0.3s ease 0s;
+    
+
+}
+Link:hover{
+    color:#00009a ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    height: 1rem;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: green;
+    border: 1px solid green;
+    
+    
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all0.3s ease 0s;
+    
+}
+.landing-button{
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav-btn2,
+.nav-btn1,
+.nav-btn3,
+.nav-btn4 button{
+    
+    
+    display: flex;
+    flex-direction:row;
+    margin-top: -50px;
+}
+
+.nav-btn1 button{
+margin-left: 975px;
+margin-top: -6px;
+}
+
+.nav-btn2 button{
+    margin-left: 1155px;
+    margin-top: -25px;
+}
+
+.nav-btn4 button{
+    margin-left: 200px;
+    margin-top: -54px;
+
+}
